@@ -10,10 +10,7 @@ module DeviseBootstrapViewsHelper
     )
 
     html = <<-HTML
-    <div class="alert alert-danger">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
+    <div class="alert alert-danger">     
       <h4 class="alert-heading">#{sentence}</h4>
       <ul class="mb-0">#{messages}</ul>
     </div>
