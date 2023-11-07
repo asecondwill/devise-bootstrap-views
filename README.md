@@ -2,7 +2,7 @@
 
 Here are some of the highlights:
 
-- Devise views with Bootstrap 4
+- Devise views with Bootstrap 5
 - Responsive layout
 - I18n support
 
@@ -10,7 +10,7 @@ Here are some of the highlights:
 
 ## Installation
 
-Make sure Bootstrap 4 is installed, either as a Ruby gem or using CDN:
+Make sure Bootstrap 5 is installed, either as a Ruby gem or using CDN or packagemanager or git submodule of the sass:
 
 ```html
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -20,7 +20,8 @@ Make sure Bootstrap 4 is installed, either as a Ruby gem or using CDN:
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'devise-bootstrap-views', '~> 1.0'
+gem "simple_form"
+gem "devise-bootstrap-views", github: 'asecondwill/devise-bootstrap-views'
 ```
 
 And then execute:
@@ -38,6 +39,12 @@ The `devise:views:bootstrap_templates` generator will copy all views to your app
 ```sh
 $ rails generate devise:views:bootstrap_templates
 ```
+
+The password eye feature requires the stimulus component:
+
+ `pin stimulus-password-visibility`
+
+ and follow the [instructions](https://www.stimulus-components.com/docs/stimulus-password-visibility/)
 
 ## Contributing
 
