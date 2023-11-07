@@ -6,7 +6,7 @@ Here are some of the highlights:
 - Responsive layout
 - I18n support
 
-![Screenshot](https://raw.githubusercontent.com/hisea/devise-bootstrap-views/master/Screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/asecondwill/devise-bootstrap-views/master/Screenshot.png)
 
 ## Installation
 
